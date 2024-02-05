@@ -1,0 +1,56 @@
+form .input {
+    width: 200px;
+    padding: 9px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.379);
+    background: rgba(255, 255, 255, 0.92);
+color: gray;
+   }
+
+form div{
+    width: 220px;
+}
+form{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+}
+.carddiv{
+    /* background: yellow; */
+    margin:  2rem;
+    width: 900px;
+    height: 200px;
+    display: flex;
+    gap: 22px;
+    overflow-y: hidden;
+
+}
+.myh3{
+    font-size: 30px;
+    margin: 6rem 0 0 6rem;
+}
+.mybtnhh{
+    width: 8rem;
+    /* position: absolute; */
+    bottom: 9rem;
+    /* right: 10rem; */
+    background-color: rgb(255, 126, 112);
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.mybtnhh:hover{
+    background-color: rgba(249, 53, 31, 0.826);
+    color: white;
+    
+}
+.price{
+    margin-left: 6rem;
+    font-size: 1.3rem;
+}
+.price span{
+    font-weight: bold;
+}

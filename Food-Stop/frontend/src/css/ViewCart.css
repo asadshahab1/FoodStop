@@ -1,0 +1,158 @@
+
+.cart-containercc {
+    max-width: 900px; 
+    margin: 3rem auto;
+    /* padding: 0 60px 0 10px; */
+    
+  }
+  .cart-containercc h3{
+    overflow: hidden;
+  }
+  .cartcc{
+    
+    background: rgba(255, 250, 239, 0.475);
+    border-radius: 15px;
+    padding: 0 12px;
+  }
+  .cart-tablecc {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+    
+  }
+
+  .cart-tablecc th,
+  .cart-tablecc td {
+    /* border: 1px solid #ddd; */
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .cart-tablecc th {
+    /* background-color: #f2f2f2; */
+    
+    border-bottom: 1px solid black;
+  }
+  
+  .cart-tablecc td {
+    /* background-color: #fff; */
+    font-size: 16px;
+  }
+  .q-btn{
+    cursor: pointer;
+    margin: 0 6px;
+    font-size: 14px;
+  }
+  .qp{
+    margin: 0 10px;
+  }
+  .dbtn{
+    color: red;
+    margin-left: 22px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .cart-tablecc button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .cart-tablecc button:hover {
+    background-color: #45a049;
+  }
+  /* Existing CSS stays the same */
+
+.quantity-containercc {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .quantity-containercc button {
+    padding: 5px 10px;
+    margin: 0 3px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .quantity-containercc button:hover {
+    background-color: #45a049;
+  }
+  
+  .quantity-containercc span {
+    padding: 0 8px;
+  }
+  .product-infocc {
+    display: flex;
+    align-items: center;
+
+}
+.pn{
+    display: block;
+    width: 200px;
+    
+}
+
+  .product-imagecart {
+    width: 50px; /* Set the desired width for the product image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Adjust spacing between image and text */
+  }
+  
+  /* Add or modify other styles as needed */
+  
+.cart-summarycc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0; /* Adjust margin as needed */
+  }
+  
+  .totalcc {
+    font-size: 18px;
+  }
+  .totalcc span{
+    font-weight: bold;
+  }
+  .edit-toggle-btn{
+    margin-right: 12px;
+    padding: 6px 20px;
+    background-color: rgb(255, 138, 125);
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  .checkout-btncc {
+    padding: 6px 20px;
+    background-color: rgb(255, 138, 125);
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .checkout-btncc:hover, .edit-toggle-btn:hover{
+    transition: 0.2s ease-in-out;
+    background-color: rgba(249, 53, 31, 0.826);
+  }
+  /* Add this to your existing CSS or create a new CSS file */
+
+/* Style for disabled buttons */
+button:disabled {
+  cursor: not-allowed;
+}
+
+/* Additional style for disabled buttons on hover */
+button:disabled:hover {
+  color: red; /* Change the color to red or any other color you prefer */
+}
